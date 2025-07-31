@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- ChefChat App Theme -->
+    <style name="ChefChatTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+
+<!-- ChefChat brand colors (Material Design 3) -->
+<item name="colorPrimary">@color/chef_orange</item>
+<item name="colorPrimaryVariant">@color/chef_orange_dark</item>
+<item name="colorOnPrimary">@color/chef_white</item>
+
+<!-- ChefChat secondary colors -->
+<item name="colorSecondary">@color/chef_orange</item>
+<item name="colorSecondaryVariant">@color/chef_orange_dark</item>
+<item name="colorOnSecondary">@color/chef_white</item>
+
+<!-- ChefChat background and surface colors -->
+<item name="android:colorBackground">@color/chef_cream</item>
+<item name="colorSurface">@color/chef_white</item>
+<item name="colorOnSurface">@color/chef_text_dark</item>
+<item name="colorOnBackground">@color/chef_text_dark</item>
+
+<!-- ChefChat status bar -->
+<item name="android:statusBarColor">@color/chef_orange_dark</item>
+
+<!-- IMPORTANT: These text appearances fix TextInputLayout error in ChefChat -->
+<item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+<item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+<item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+<item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
+<item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
+<item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
+<item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+<item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+<item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+<item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+<item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+<item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+<item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+
+<!-- Backward compatibility for ChefChat (for older code) -->
+<item name="colorAccent">@color/chef_orange</item>
+<item name="colorPrimaryDark">@color/chef_orange_dark</item>
+</style>
+
+</resources>

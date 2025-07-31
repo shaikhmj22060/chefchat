@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChefChat</string>
+    <string name="default_web_client_id" translatable="false">306660565790-3hccobcllhsl3ovrmj19ljuhtdc4hhkn.apps.googleusercontent.com</string>
+
+</resources>

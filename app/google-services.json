@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "306660565790",
+    "project_id": "mj-recipe",
+    "storage_bucket": "mj-recipe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306660565790:android:1fb04a1ba4a3b27e37df0f",
+        "android_client_info": {
+          "package_name": "com.example.chefchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306660565790-esseap6erjepc666apiiqpp0jd3uso0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chefchat",
+            "certificate_hash": "65a0974ac1bb92bd677d1acbd3a41a55362cf0f2"
+          }
+        },
+        {
+          "client_id": "306660565790-3hccobcllhsl3ovrmj19ljuhtdc4hhkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpkfNt3UVuGEGdV012PoN_LH1OObX_Tz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306660565790-3hccobcllhsl3ovrmj19ljuhtdc4hhkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

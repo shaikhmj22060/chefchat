@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <color name="chef_orange">#E67E22</color>
+    <color name="chef_orange_dark">#D35400</color>
+    <color name="chef_cream">#FDF2E9</color>
+    <color name="chef_white">#FFFFFF</color>
+    <color name="chef_text_dark">#2C3E50</color>
+    <color name="chef_text_light">#7F8C8D</color>
+</resources>
