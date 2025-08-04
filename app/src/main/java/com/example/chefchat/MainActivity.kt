@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.core.content.ContextCompat.startActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
@@ -56,37 +57,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showUserProfileDialog() {
-        val user = auth.currentUser
-        val dialogView = layoutInflater.inflate(R.layout.dialog_user_profile, null)
-        val nameView = dialogView.findViewById<TextView>(R.id.tvUserName)
-        val emailView = dialogView.findViewById<TextView>(R.id.tvUserEmail)
-        val imageView = dialogView.findViewById<ImageView>(R.id.ivProfilePic)
-
-        nameView.text = user?.displayName ?: "No Name"
-        emailView.text = user?.email ?: "No Email"
-
-        val photoUrl: Uri? = user?.photoUrl
-        if (photoUrl != null) {
-            Picasso.get()
-                .load(photoUrl)
-                .placeholder(R.drawable.ic_profile_chef)
-                .error(R.drawable.ic_profile_chef)
-                .into(imageView)
-        } else {
-            imageView.setImageResource(R.drawable.ic_profile_chef)
-        }
-
-        AlertDialog.Builder(this)
-            .setTitle("Chef Profile")
-            .setView(dialogView)
-            .setPositiveButton("OK") { dialog, _ -> dialog.dismiss() }
-            .create()
-            .apply {
-                show()
-                getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(
-                    ContextCompat.getColor(this@MainActivity, R.color.chef_orange)
-                )
-            }
+        val intent = Intent(this, ProfileActivity::class.java)
+        startActivity(intent)
     }
 
     private fun showEditProfileOptions() {
